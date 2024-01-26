@@ -1,0 +1,15 @@
+﻿<Window x:Class="day11Evteev.Window12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:day11Evteev"
+        mc:Ignorable="d"
+        Title="Window12" Height="517" Width="800" Background="#FF6BA4EF">
+    <Grid Margin="0,0,0,-6">
+        <TextBlock HorizontalAlignment="Center" Height="67" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410" FontSize="15" TextAlignment="Center"><Run Text="Пони согласилась довести вас до выхода из этого мира и помочь добраться до больницы"/><Run Language="ru-ru" Text=" и вы полетели"/></TextBlock>
+        <Button Content="наслаждаться полетом " HorizontalAlignment="Left" Height="47" Margin="294,450,0,0" VerticalAlignment="Top" Width="184" Background="#FF3986EC" Click="ButtonL_Click"/>
+        <Image Source="/image/image.psd (8).jpg" Margin="111,49,0,0" HorizontalAlignment="Left" Width="753" Height="385" VerticalAlignment="Top" />
+
+    </Grid>
+</Window>
